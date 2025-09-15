@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(images/booking2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+}
+.booking-section {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.booking-section h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 5%;
+}
+.booking-section h3 {
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  padding-right: 5%;
+}
+.booking-section form {
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  padding-right: 5%;
+}
+.booking-section form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 2%;
+}
+.booking-section form input {
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+}
+.booking-section form button {
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.booking-section form button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.booking-section form .submit {
+  width: 20%;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.booking-section form .submit:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.counting-button {
+  width: 20%;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+}
