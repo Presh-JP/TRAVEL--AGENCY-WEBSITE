@@ -12,6 +12,38 @@ body {
   width: 100%;
   color: white;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  backdrop-filter: blur(6px);
+  width: 100%;
+  z-index: 100;
+}
+.navlink {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+}
+.navlink li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
 .booking-section {
   height: 100vh;
   width: 100%;
@@ -101,4 +133,44 @@ body {
   background-color: transparent;
   border: 2px solid black;
   cursor: pointer;
+}
+.counting-button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.room {
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.room:hover {
+  color: yellow;
+  transition: 0.5s;
+}
+.room {
+  width: 10%;
+  height: 20px;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .booking-section form input {
+    width: 80%;
+  }
+  .booking-section form button {
+    width: 50%;
+  }
+  .booking-section form .submit {
+    width: 50%;
+  }
 }

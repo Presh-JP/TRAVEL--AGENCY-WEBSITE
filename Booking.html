@@ -25,6 +25,19 @@
     <link rel="stylesheet" href="Booking.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h2><i>Luna</i></h2>
+      </div>
+      <ul class="navlink">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#About" target="_blank">About </a></li>
+        <li><a href="Booking.html" target="_blank">Booking</a></li>
+        <li><a href="Destination.html" target="_blank">Destinations</a></li>
+        <li><a href="index.html#Contact Us" target="_blank">Contact Us</a></li>
+      </ul>
+      <button class="nav-button">Sign Up</button>
+    </nav>
     <div class="booking-section" id="#Booking">
       <h1>Book a Trip With Luna Travels</h1>
       <h3>
@@ -65,7 +78,7 @@
         <button class="counting-button" type="numbers"></button>
         <h2>KIDS</h2>
         <button class="counting-button" type="numbers"></button>
-        <h2>NO. OF ROOMS</h2>
+        <h2 class="room">NO. OF ROOMS</h2>
         <input
           type="number"
           id="Enter number of rooms"
@@ -73,7 +86,7 @@
           required
         />
 
-        <button class="submit">Complete your booking</button>
+        <button class="submit">Submit</button>
       </form>
     </div>
   </body>
